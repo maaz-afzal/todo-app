@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="todo-container">
+      <!-- Todo Header -->
+      <div class="todo-header">
+        <h1>Todo List</h1>
+        <p>Plan, Focus, Achieve, Repeat, Done.</p>
+      </div>
+
+      <!-- Todo Input -->
+      <div class="todo-input-container">
+        <input
+          typee="text"
+          name="todo-text"
+          id="todo-text"
+          placeholder="Enter todos"
+        />
+        <button id="add-todo">Add</button>
+      </div>
+
+      <!-- Todo Filters -->
+      <div class="todo-filters">
+        <div class="todo-filter-btn">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="active">active</button>
+          <button class="filter-btn" data-filter="completed">completed</button>
+        </div>
+        <div class="clear-completed-todos">
+          <button class="filter-btn clear-completed">
+            <i class="fa fa-trash"></i><span> clear completed</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Main Todo List -->
+      <div class="todo-list-items">
+        <ul class="todo-items"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
