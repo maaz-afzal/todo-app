@@ -37,4 +37,4 @@ No installation needed. Just follow these steps:
 
 ## Live Demo
 
-[Click here to view the live demo](https://your-live-demo-link.com)
+[Click here to view the live demo](https://maaz-afzal.github.io/todo-app/)
