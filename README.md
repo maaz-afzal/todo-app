@@ -3,7 +3,7 @@
 
 # Todo List App
 
-A simple and clean todo list application built with React and Tailwind CSS.
+A simple and clean todo list application built with HTML, CSS and Javascript.
 
 
 ## Features
