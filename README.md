@@ -3,7 +3,7 @@
 
 # Todo List App
 
-A simple and clean todo list application built with HTML, CSS and Javascript.
+A todo list app built with HTML, CSS, and JavaScript.
 
 
 ## Features
